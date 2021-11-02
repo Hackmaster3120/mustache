@@ -1,0 +1,16 @@
+@keyframes mation {
+    0%   {box-shadow: 10px 10px 100px lightgreen;}
+    25%  {box-shadow: 10px 10px 100px cyan;}
+    50%  {box-shadow: 10px 10px 100px orange;}
+    100% {box-shadow: 10px 10px 100px red;}
+  }
+
+canvas {
+    border:1px solid black;
+    animation-iteration-count: infinite;
+    animation-name: mation;
+    animation-duration: 20s;
+}
+.btn-success:hover{
+    background-color: crimson;
+}
